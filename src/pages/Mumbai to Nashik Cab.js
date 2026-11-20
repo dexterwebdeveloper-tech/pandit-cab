@@ -595,6 +595,37 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mumbai To Nashik Cab",
+  "image": "https://www.panditcabs.com/assets/images/mumbai-to-nashik-cab.webp",
+  "description": "Book a Mumbai To Nashik Cab with Pandit Cabs for comfortable outstation travel, one-way drops, round trips, family visits, and business journeys. Choose from sedan, SUV, and Innova options according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mumbai-to-nashik-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
+
 
 
 
@@ -604,7 +635,21 @@ const testimonials = [
   return (
     <div>
 
-
+<Helmet>
+  <title>Mumbai To Nashik Cab | Mumbai Nashik Round Trip Taxi | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mumbai To Nashik Cab with Pandit Cabs for one-way transfers, round trips, family travel, and business journeys. Sedan, SUV, and Innova options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mumbai To Nashik Cab, Mumbai to Nashik Taxi, Mumbai Nashik Car Rental, Mumbai to Nashik One Way Cab, Mumbai Nashik Taxi Booking, Mumbai to Nashik Cab Fare, Mumbai Nashik Round Trip Taxi, Mumbai to Nashik Innova Cab, Mumbai to Nashik Sedan Rental, Mumbai"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mumbai-to-nashik-cab"
+  />
+</Helmet>
 
       <section className="page-header">
         <div

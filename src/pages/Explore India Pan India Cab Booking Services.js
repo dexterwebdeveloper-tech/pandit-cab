@@ -592,6 +592,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Explore India Pan India Cab Booking Services",
+  "image": "https://www.panditcabs.com/assets/images/explore-india-pan-india-cab-booking-services.webp",
+  "description": "Explore India with Pan India cab booking services from Pandit Cabs. Book convenient intercity taxis, one-way cabs, outstation rides and nationwide car rental services for travel across multiple destinations. Contact +91 9890121689 for booking assistance.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/explore-india-pan-india-cab-booking-services",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -600,6 +630,24 @@ const testimonials = [
 
   return (
     <div>
+<Helmet>
+  <title>Explore India Pan India Cab Booking Services | All India Taxi Service | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Explore India with Pandit Cabs for Pan India cab booking, all India taxi services, intercity travel and outstation journeys. Book one-way or round-trip cabs across India. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Pan India Cab Booking, All India Taxi Service, Explore India Cab Service, India Wide Car Rental, Intercity Cab Booking Across India, Outstation Taxi Across India, Pan India One Way Cab, All India Outstation Car Hire, Nationwide"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/explore-india-pan-india-cab-booking-services"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
 

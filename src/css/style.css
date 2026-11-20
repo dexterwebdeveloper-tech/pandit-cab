@@ -480,8 +480,8 @@ xs sidebar
   -webkit-transition: all .4s ease-in .8s;
   -o-transition: all .4s ease-in .8s;
   transition: all .4s ease-in .8s;
-  cursor: url(../images/icon/cross-out.png),
-    pointer;
+  /* cursor: url(../images/icon/cross-out.png), */
+    /* pointer; */
   z-index: 99999;
 }
 

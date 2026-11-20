@@ -638,6 +638,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mumbai to Goa Cab",
+  "image": "https://www.panditcabs.com/assets/images/mumbai-to-goa-cab.webp",
+  "description": "Book a Mumbai to Goa Cab with Pandit Cabs for comfortable outstation travel, one-way drops, round trips, family holidays, and group journeys. Choose from sedan, SUV, and Innova options according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mumbai-to-goa-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -646,6 +676,21 @@ const testimonials = [
 
   return (
     <div>
+<Helmet>
+  <title>Mumbai to Goa Cab | Mumbai to Goa Taxi One Way Fare | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Book a Mumbai to Goa Cab with Pandit Cabs for one-way transfers, round trips, family holidays, and outstation travel. Choose from comfortable sedan, SUV, and Innova options. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mumbai to Goa Cab, Mumbai to Goa Car Rental, Mumbai to Goa Taxi Fare, Mumbai to Goa Cab Fare, Mumbai to Goa Taxi One Way Fare, Mumbai to Goa Cab Price, Mumbai to Goa by Car Fare, Bo"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mumbai-to-goa-cab"
+  />
+</Helmet>
 
 
 

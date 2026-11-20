@@ -623,7 +623,36 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Cab Service in Thane",
+  "image": "https://www.panditcabs.com/assets/images/cab-service-in-thane.webp",
+  "description": "Book reliable cab service in Thane with Pandit Cabs for local travel, Pune transfers, airport pickups and outstation journeys. Contact +91 9890121689 for cab bookings and travel assistance.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/cab-service-in-thane",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -632,6 +661,25 @@ const testimonials = [
 
   return (
     <div>
+
+<Helmet>
+  <title>Cab Service in Thane | Thane to Pune Cab | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Choose Pandit Cabs for dependable cab service in Thane. Book local taxis, Pune transfers and outstation car rentals with convenient pickup options. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Thane to Pune Cab, Cab Booking in Thane, Car Rental in Thane for Outstation, Pune Thane Cab Service, Pune to Thane Taxi Fare, Cab Service in Thane, Taxi Service in Thane, Cabs in Thane, Taxi in Thane, Thane Cab Service, Thane Taxi Service, Car Rental in Thane, Cab Booking in Thane, Taxi Booking Thane, Best Cab Service in Thane, Cheap Cab"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/cab-service-in-thane"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
 
@@ -663,7 +711,7 @@ const testimonials = [
         <div className="container-fluid p-0" >
           <div className="row container-fluid px-md-2">
             <div className="col-12 col-md-7 bg-foootr">
-              <img src='/images/keyword/.jpg' alt='img' className='img-fluid' />
+              <img src='/images/keyword/166.jpeg' alt='img' className='img-fluid' />
               <h3 className="py-1"
                 style={{
                   color: '#183765', // Red color for the title 

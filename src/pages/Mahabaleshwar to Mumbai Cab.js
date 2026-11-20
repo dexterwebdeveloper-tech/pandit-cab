@@ -577,6 +577,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mahabaleshwar To Mumbai Cab",
+  "image": "https://www.panditcabs.com/assets/images/mahabaleshwar-to-mumbai-cab.webp",
+  "description": "Book a Mahabaleshwar To Mumbai Cab with Pandit Cabs for comfortable one-way transfers, round trips, family journeys, and outstation travel. Choose from sedan, SUV, and Innova options according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mahabaleshwar-to-mumbai-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -584,6 +614,21 @@ const testimonials = [
     <div>
 
 
+<Helmet>
+  <title>Mahabaleshwar To Mumbai Cab | Mahabaleshwar Mumbai Taxi Booking | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mahabaleshwar To Mumbai Cab with Pandit Cabs for one-way transfers, round trips, family travel, and comfortable outstation journeys. Sedan, SUV, and Innova options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mahabaleshwar To Mumbai Cab, Mahabaleshwar to Mumbai Taxi, Mahabaleshwar Mumbai Car Rental, Mahabaleshwar to Mumbai One Way Cab, Mahabaleshwar Mumbai Taxi Booking, Mahabaleshwar to Mumbai Cab Fare, Mahabaleshwar"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mahabaleshwar-to-mumbai-cab"
+  />
+</Helmet>
 
       <section className="page-header">
         <div

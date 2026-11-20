@@ -505,6 +505,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Tempo Traveller on Rent in Chinchwad Pune",
+  "image": "https://www.panditcabs.com/assets/images/tempo-traveller-on-rent-in-chinchwad-pune.webp",
+  "description": "Book a Tempo Traveller on Rent in Chinchwad Pune with Pandit Cabs for comfortable group travel, family trips, corporate outings, weddings, airport transfers, and outstation journeys. Choose from 14-seater, 17-seater, and 20-seater Tempo Traveller options according to your travel requirements. Call +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/tempo-traveller-on-rent-in-chinchwad-pune",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -514,6 +544,21 @@ const testimonials = [
 
   return (
     <div>
+<Helmet>
+  <title>Tempo Traveller on Rent in Chinchwad Pune | 17 Seater Tempo Traveller Chinchwad | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Tempo Traveller on Rent in Chinchwad Pune with Pandit Cabs for family trips, corporate travel, weddings, and outstation journeys. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Tempo Traveller on Rent in Chinchwad Pune, 14 Seater Tempo Traveller Chinchwad, 17 Seater Tempo Traveller Chinchwad, 20 Seater Tempo Traveller Chinchwad"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/tempo-traveller-on-rent-in-chinchwad-pune"
+  />
+</Helmet>
 
 
 

@@ -569,7 +569,36 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mumbai To Surat Cab",
+  "image": "https://www.panditcabs.com/assets/images/mumbai-to-surat-cab.webp",
+  "description": "Book a Mumbai To Surat Cab with Pandit Cabs for comfortable outstation travel, one-way drops, round trips, airport transfers, and business journeys. Choose from sedan, SUV, and Innova options according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mumbai-to-surat-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -578,6 +607,22 @@ const testimonials = [
   return (
     <div>
 
+
+<Helmet>
+  <title>Mumbai To Surat Cab | Mumbai to Surat One Way Cab | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mumbai To Surat Cab with Pandit Cabs for one-way transfers, round trips, airport pickups, and outstation journeys. Sedan, SUV, and Innova options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mumbai To Surat Cab, Mumbai to Surat Taxi, Mumbai Surat Car Rental, Mumbai to Surat One Way Cab, Mumbai Surat Taxi Booking, Mumbai to Surat Cab Fare, Mumbai Surat Round Trip Taxi, Mumbai to Surat Innova Cab, Mumbai to Surat Sedan Rental, Mumbai Surat Private Car Hire, Mumbai to Surat Outstation Taxi, Mumbai Surat Airport"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mumbai-to-surat-cab"
+  />
+</Helmet>
 
 
       <section className="page-header">

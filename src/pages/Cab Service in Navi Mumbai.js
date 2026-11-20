@@ -627,6 +627,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Cab Service in Navi Mumbai",
+  "image": "https://www.panditcabs.com/assets/images/cab-service-in-navi-mumbai.webp",
+  "description": "Book dependable cab service in Navi Mumbai with Pandit Cabs for local travel, airport transfers, business trips and outstation journeys. Call +91 9890121689 for cab bookings and assistance.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/cab-service-in-navi-mumbai",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -636,6 +666,24 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Cab Service in Navi Mumbai | Cab Hire in Navi Mumbai | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Looking for reliable cab service in Navi Mumbai? Choose Pandit Cabs for local taxi rides, airport transfers and outstation travel. Call +91 9890121689 to book."
+  />
+  <meta
+    name="keywords"
+    content="Cab Service in Airoli, Cab Hire in Navi Mumbai, Cabs in Navi Mumbai, Cabs Navi Mumbai, Navi Mumbai Taxi Service, Taxi Service in Vashi Navi Mumbai, Cab Service in Navi Mumbai, Taxi Service in Navi Mumbai, Cabs in Navi Mumbai, Taxi in Navi Mumbai, Navi Mumbai Cab Service, Navi Mumbai Taxi Service, Cab Booking in"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/cab-service-in-navi-mumbai"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
       <section className="page-header">

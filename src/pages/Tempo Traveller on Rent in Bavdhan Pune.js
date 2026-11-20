@@ -495,6 +495,37 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Tempo Traveller on Rent in Bavdhan Pune",
+  "image": "https://www.panditcabs.com/assets/images/tempo-traveller-on-rent-in-bavdhan-pune.webp",
+  "description": "Book a tempo traveller on rent in Bavdhan Pune with Pandit Cabs for corporate outings, family trips, weddings, airport transfers, and outstation group journeys. Enquire about chauffeur-driven 14-seater, 17-seater, and 20-seater AC and Non-AC tempo travellers according to availability. Call +91 9890121689.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/tempo-traveller-on-rent-in-bavdhan-pune",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
+
 
 
 
@@ -503,7 +534,21 @@ const testimonials = [
   return (
     <div>
 
-
+<Helmet>
+  <title>Tempo Traveller on Rent in Bavdhan Pune | Tempo Traveller for Family Trips Bavdhan | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a tempo traveller on rent in Bavdhan Pune with Pandit Cabs for corporate outings, family trips, weddings, airport transfers, and outstation group journeys. Choose from chauffeur-driven 14-seater, 17-seater, and 20-seater AC or Non-AC options according to availability. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Tempo Traveller on Rent in Bavdhan Pune, 14 Seater Tempo Traveller Bavdhan, 17 Seater Tempo Traveller Bavdhan, 20 Seater Tempo Traveller Bavdhan, Tempo Traveller for Family Trips Bavdhan"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/tempo-traveller-on-rent-in-bavdhan-pune"
+  />
+</Helmet>
 
       <section className="page-header">
         <div

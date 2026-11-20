@@ -524,6 +524,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mini Bus On Rent in Viman Nagar",
+  "image": "https://www.panditcabs.com/assets/images/mini-bus-on-rent-in-viman-nagar.webp",
+  "description": "Book a Mini Bus On Rent in Viman Nagar with Pandit Cabs for airport pickups, corporate transportation, wedding functions, group tours, and outstation journeys. Choose from 17-seater and 25-seater bus options, including AC and Non-AC vehicles, subject to availability. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mini-bus-on-rent-in-viman-nagar",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -533,6 +563,21 @@ const testimonials = [
     <div>
 
 
+<Helmet>
+  <title>Mini Bus On Rent in Viman Nagar | Viman Nagar Airport Pickup Bus | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mini Bus On Rent in Viman Nagar with Pandit Cabs for airport transfers, corporate travel, weddings, group journeys, and outstation trips. 17-seater and 25-seater options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mini Bus On Rent in Viman Nagar, Viman Nagar Mini Bus Hire Pune, Viman Nagar Airport Pickup Bus, Viman Nagar Corporate Bus Rental, Viman Nagar Wedding Bus Hire, Viman Nagar Group Travel Bus, Viman Nagar AC Mini Bus, Viman Nagar Non AC Bus, 17 Seater Viman Nagar Bus, 25 Seater Viman Nagar Bus, Viman Nagar Outstation Bus Hire, Viman Nagar to Lonavala Bus, Viman Nagar to Mahabaleshwar Bus, Viman Nagar Kharadi Bus Service, Viman"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mini-bus-on-rent-in-viman-nagar"
+  />
+</Helmet>
 
       <section className="page-header">
         <div

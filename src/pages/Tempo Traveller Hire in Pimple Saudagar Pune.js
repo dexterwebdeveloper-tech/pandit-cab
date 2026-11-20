@@ -497,6 +497,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Tempo Traveller Hire in Pimple Saudagar Pune",
+  "image": "https://www.panditcabs.com/assets/images/tempo-traveller-hire-in-pimple-saudagar-pune.webp",
+  "description": "Hire a tempo traveller in Pimple Saudagar Pune with Pandit Cabs for corporate outings, family trips, weddings, airport transfers, and outstation group journeys. Choose from chauffeur-driven 14-seater, 17-seater, and 20-seater AC and Non-AC tempo travellers according to availability. Call +91 9890121689.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/tempo-traveller-hire-in-pimple-saudagar-pune",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -506,6 +536,21 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Tempo Traveller Hire in Pimple Saudagar Pune | Tempo Traveller for Corporate Pimple Saudagar | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Book a tempo traveller in Pimple Saudagar Pune with Pandit Cabs for corporate outings, family holidays, weddings, airport transfers, and outstation group journeys. Choose from chauffeur-driven 14-seater, 17-seater, and 20-seater AC or Non-AC vehicles according to availability. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Tempo Traveller Hire in Pimple Saudagar Pune, 14 Seater Tempo Traveller Pimple Saudagar, 17 Seater Tempo Traveller Pimple Saudagar, 20 Seater Tempo Traveller Pimple Saudagar, Tempo Traveller for Corporate Pimple Saudagar"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/tempo-traveller-hire-in-pimple-saudagar-pune"
+  />
+</Helmet>
 
 
       <section className="page-header">

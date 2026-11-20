@@ -512,6 +512,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Navi Mumbai Airport Cab",
+  "image": "https://www.panditcabs.com/assets/images/navi-mumbai-airport-cab.webp",
+  "description": "Book a reliable Navi Mumbai Airport Cab with Pandit Cabs for convenient airport pickup and drop services. Contact us at +91 9890121689 for cab bookings and travel assistance.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/navi-mumbai-airport-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -519,6 +549,24 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Navi Mumbai Airport Cab | Navi Mumbai Airport Taxi | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Choose Pandit Cabs for Navi Mumbai airport cab service, airport pickups and drops, and convenient taxi bookings. Call +91 9890121689 to book your cab."
+  />
+  <meta
+    name="keywords"
+    content="Navi Mumbai Airport Cab, Navi Mumbai Airport Taxi, Navi Mumbai Airport Cab Service, Navi Mumbai Airport Taxi Service, Cab Service at Navi Mumbai Airport, Taxi Service at Navi Mumbai Airport, Airport Cab Navi Mumbai, Navi Mumbai Airport Cab Booking, Navi Mumbai Airport Taxi Booking Online, Navi Mumbai Airport Cab Fare, Navi"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/navi-mumbai-airport-cab"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
       <section className="page-header">

@@ -597,7 +597,36 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Innova Crysta On Rent in Mumbai",
+  "image": "https://www.panditcabs.com/assets/images/innova-crysta-on-rent-in-mumbai.webp",
+  "description": "Hire an Innova Crysta on rent in Mumbai with Pandit Cabs for comfortable local travel, airport transfers, family trips and outstation journeys. Contact +91 9890121689 for bookings and rental details.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/innova-crysta-on-rent-in-mumbai",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -607,6 +636,25 @@ const testimonials = [
 
   return (
     <div>
+<Helmet>
+  <title>Innova Crysta On Rent in Mumbai | Innova Car Rental Mumbai | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Book an Innova Crysta on rent in Mumbai with Pandit Cabs. Enjoy comfortable Innova car rental for local travel, airport transfers and outstation trips. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Innova on Rent Mumbai, Innova Car Rental Mumbai, Innova Crysta Rent in Mumbai, Hire Innova Crysta in Mumbai, Innova Car Hire Charges in Mumbai, Innova Car Hire in Mumbai, Innova Car Rent per Day in Mumbai, Innova"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/innova-crysta-on-rent-in-mumbai"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
+
 
 
 

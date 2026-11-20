@@ -574,13 +574,58 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Shirdi To Mumbai Cab",
+  "image": "https://www.panditcabs.com/assets/images/shirdi-to-mumbai-cab.webp",
+  "description": "Book a Shirdi To Mumbai Cab with Pandit Cabs for comfortable return journeys after Sai Baba darshan, one-way transfers, round trips, and outstation travel. Choose from sedan, SUV, and Innova options according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/shirdi-to-mumbai-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
   return (
     <div>
 
+
+<Helmet>
+  <title>Shirdi To Mumbai Cab | Shirdi to Mumbai One Way Taxi | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Shirdi To Mumbai Cab with Pandit Cabs after Sai Baba darshan for one-way travel, round trips, and outstation transfers. Sedan, SUV, and Innova options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Shirdi To Mumbai Cab, Shirdi to Mumbai Taxi, Shirdi Mumbai Car Rental, Shirdi to Mumbai One Way Taxi, Shirdi Mumbai Cab Booking, Shirdi to Mumbai Cab Fare, Shirdi Mumbai Round Trip Cab, Shirdi to Mumbai Innova Taxi, Shirdi to Mumbai Sedan Cab, Shirdi Mumbai Private Car Hire, Shirdi to Mumbai Outstation Taxi, Shirdi Sai Baba Temple"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/shirdi-to-mumbai-cab"
+  />
+</Helmet>
 
 
       <section className="page-header">

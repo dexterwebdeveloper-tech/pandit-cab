@@ -544,14 +544,62 @@ const testimonials = [
 
 
 
-
-
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Urbania on Rent in Kothrud",
+  "image": "https://www.panditcabs.com/assets/images/urbania-on-rent-in-kothrud.webp",
+  "description": "Book a luxury Force Urbania on rent in Kothrud, Pune with Pandit Cabs for comfortable group travel, family outings, corporate events and outstation journeys. Contact +91 9890121689 for booking details.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/urbania-on-rent-in-kothrud",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
   return (
     <div>
+
+
+<Helmet>
+  <title>Urbania on Rent in Kothrud | Urbania on Rent Kothrud | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire an Urbania on rent in Kothrud, Pune with Pandit Cabs. Book comfortable group transportation for local travel, corporate outings, family trips and outstation journeys. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Urbania on Rent Kothrud, Urbania on Rent Karve Nagar, Urbania on Rent Bavdhan, Urbania Traveller Paud Road, Urbania on Rent in Kothrud, 13 Seater Urbania on Rent in Kothrud, 17 Seater Urbania on Rent in Kothrud, Urbania Hire in Kothrud Pune, Urbania"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/urbania-on-rent-in-kothrud"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
+
 
 
 

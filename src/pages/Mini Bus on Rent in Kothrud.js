@@ -522,6 +522,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mini Bus On Rent in Kothrud",
+  "image": "https://www.panditcabs.com/assets/images/mini-bus-on-rent-in-kothrud.webp",
+  "description": "Book a Mini Bus On Rent in Kothrud with Pandit Cabs for local group transportation, family outings, corporate travel, and trips around Karve Nagar and Bavdhan. Choose suitable AC and Non-AC mini bus options according to your group size and travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mini-bus-on-rent-in-kothrud",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -531,6 +561,21 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Mini Bus On Rent in Kothrud | Kothrud Karve Nagar Bus Service | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mini Bus On Rent in Kothrud with Pandit Cabs for group travel, family outings, and local transportation around Karve Nagar and Bavdhan. AC and Non-AC options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mini Bus On Rent in Kothrud, Kothrud Mini Bus Hire Pune, Kothrud Karve Nagar Bus Service, Kothrud Bavdhan Bus Rental, Kothrud AC Mini Bus Hire, Kothrud Non AC Bus Rental"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mini-bus-on-rent-in-kothrud"
+  />
+</Helmet>
 
 
       <section className="page-header">

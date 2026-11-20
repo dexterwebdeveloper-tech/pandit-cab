@@ -541,6 +541,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mini Bus in Chinchwad Pune",
+  "image": "https://www.panditcabs.com/assets/images/mini-bus-in-chinchwad-pune.webp",
+  "description": "Book a Mini Bus in Chinchwad Pune with Pandit Cabs for local group transportation, corporate outings, family functions, weddings, and outstation journeys. Choose from AC and Non-AC mini bus options, including 17-seater and 25-seater vehicles according to availability. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mini-bus-in-chinchwad-pune",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -549,6 +579,21 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Mini Bus in Chinchwad Pune | 17 Seater Chinchwad Bus | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mini Bus in Chinchwad Pune with Pandit Cabs for local travel, corporate outings, weddings, and group journeys. AC and Non-AC options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mini Bus in Chinchwad Pune, Chinchwad Mini Bus Hire, Chinchwad to Pune Mini Bus, AC Mini Bus Chinchwad, Non AC Mini Bus Chinchwad, 17 Seater Chinchwad Bus, 25 Seater C"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mini-bus-in-chinchwad-pune"
+  />
+</Helmet>
 
 
       <section className="page-header">

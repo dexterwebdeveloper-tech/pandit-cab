@@ -527,6 +527,37 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Wedding Mini Bus Rental in Pune",
+  "image": "https://www.panditcabs.com/assets/images/wedding-mini-bus-rental-in-pune.webp",
+  "description": "Arrange comfortable wedding transportation with Wedding Mini Bus Rental in Pune from Pandit Cabs. Choose suitable AC and Non-AC mini buses for marriage guests, family members, wedding ceremonies, receptions, and group transfers between venues. Contact Pandit Cabs at +91 9890121689 for rental enquiries and booking details.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/wedding-mini-bus-rental-in-pune",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
+
 
 
 
@@ -534,7 +565,21 @@ const testimonials = [
 
   return (
     <div>
-
+<Helmet>
+  <title>Wedding Mini Bus Rental in Pune | Luxury Wedding Mini Bus Pune | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Book Wedding Mini Bus Rental in Pune with Pandit Cabs for marriage guests, wedding ceremonies, receptions, and group transfers. AC and Non-AC options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Wedding Mini Bus Rental in Pune, Wedding Bus Hire in Pune, Mini Bus for Marriage in Pune, Wedding Transport Service Pune, Luxury Wedding Mini Bus Pune, AC Mini Bus for Wedding Pune, Non AC Wedding Bus Pune"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/wedding-mini-bus-rental-in-pune"
+  />
+</Helmet>
 
 
       <section className="page-header">

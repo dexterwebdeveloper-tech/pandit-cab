@@ -587,8 +587,36 @@ const testimonials = [
 
 
 
-
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mumbai To Bangalore Cab",
+  "image": "https://www.panditcabs.com/assets/images/mumbai-to-bangalore-cab.webp",
+  "description": "Book a Mumbai To Bangalore Cab with Pandit Cabs for comfortable long-distance travel, one-way drops, round trips, and business journeys. Choose from sedan, SUV, Innova, and other vehicle options according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mumbai-to-bangalore-cab.aspx",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -596,6 +624,23 @@ const testimonials = [
 
   return (
     <div>
+
+<Helmet>
+  <title>Mumbai To Bangalore Cab | Mumbai to Bangalore One Way Cab | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mumbai To Bangalore Cab with Pandit Cabs for one-way travel, round trips, business journeys, and comfortable outstation transfers. Sedan, SUV, and Innova options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mumbai To Bangalore Cab, Mumbai to Bangalore Taxi, Mumbai Bangalore Car Rental, Mumbai to Bangalore One Way Cab, Mumbai Bangalore Taxi Booking, Mumbai to Bangalore Cab Fare, Mumbai Bangalore Outstation Taxi, Mumbai to Bangalore Innova Cab, Mumbai to Bangalore Sedan Rental, Mumbai Bangalore Round Trip Cab, Mumbai to Bangalore Private Taxi, Mumbai Bangalore Car Hire, Mumbai to Bangalore SUV Rental, Mumbai Bangalore"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mumbai-to-bangalore-cab.aspx"
+  />
+</Helmet>
+
 
 
 

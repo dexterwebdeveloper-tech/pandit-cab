@@ -573,6 +573,37 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "14 Seater Urbania on Rent in Pune",
+  "image": "https://www.panditcabs.com/assets/images/14-seater-urbania-on-rent-in-pune.webp",
+  "description": "Book a luxury 14 Seater Urbania on rent in Pune with Pandit Cabs for family trips, corporate travel, group tours and outstation journeys. Contact +91 9890121689 for booking and rental details.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/14-seater-urbania-on-rent-in-pune",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
+
 
 
 
@@ -581,7 +612,24 @@ const testimonials = [
 
   return (
     <div>
-
+<Helmet>
+  <title>14 Seater Urbania on Rent in Pune | 14 Seater Urbania Traveller Pune | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a 14-seater luxury Urbania in Pune with Pandit Cabs for comfortable group travel, corporate outings, family tours and outstation trips. Call +91 9890121689 for booking details."
+  />
+  <meta
+    name="keywords"
+    content="14 Seater Urbania Traveller Pune, 14 Seater Urbania Hire in Pune, 14 Seater Urbania Booking Pune, 14 Seater Urbania Van Rental Pune, Luxury 14 Seater Urbania on Rent Pune, 14 Seater Urbania for Outstation Pune, 14"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/14-seater-urbania-on-rent-in-pune"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
       <section className="page-header">

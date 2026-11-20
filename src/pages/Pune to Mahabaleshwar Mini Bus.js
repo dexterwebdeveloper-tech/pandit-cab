@@ -527,12 +527,57 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Pune to Mahabaleshwar Mini Bus",
+  "image": "https://www.panditcabs.com/assets/images/pune-to-mahabaleshwar-mini-bus.webp",
+  "description": "Book a Pune to Mahabaleshwar Mini Bus with Pandit Cabs for comfortable family holidays, group tours, corporate outings, and sightseeing trips. Choose suitable AC and Non-AC mini bus options for your journey from Pune to Mahabaleshwar. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/pune-to-mahabaleshwar-mini-bus",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
   return (
     <div>
+<Helmet>
+  <title>Pune to Mahabaleshwar Mini Bus | Mahabaleshwar Tour Bus Pune | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Pune to Mahabaleshwar Mini Bus with Pandit Cabs for family holidays, sightseeing, group tours, and corporate outings. AC and Non-AC options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Pune to Mahabaleshwar Mini Bus, Pune to Mahabaleshwar Mini Bus Hire, Mahabaleshwar Tour Bus Pune, Pune to Mahabaleshwar AC Bus Rental, Non AC"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/pune-to-mahabaleshwar-mini-bus"
+  />
+</Helmet>
+
 
 
 

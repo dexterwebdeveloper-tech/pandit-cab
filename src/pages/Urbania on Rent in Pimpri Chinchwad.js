@@ -525,6 +525,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Urbania on Rent in Pimpri Chinchwad",
+  "image": "https://www.panditcabs.com/assets/images/urbania-on-rent-in-pimpri-chinchwad.webp",
+  "description": "Book a luxury Force Urbania on rent in Pimpri Chinchwad with Pandit Cabs for family trips, group outings, corporate travel and outstation journeys. Contact +91 9890121689 for booking and rental details.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/urbania-on-rent-in-pimpri-chinchwad",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -534,6 +564,24 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Urbania on Rent in Pimpri Chinchwad | 17 Seater Urbania on Rent Pimpri Chinchwad | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire an Urbania on rent in Pimpri Chinchwad with Pandit Cabs. Book a comfortable 17-seater Urbania for group travel, corporate outings and outstation trips. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="17 Seater Urbania on Rent Pimpri Chinchwad, Urbania Traveller on Rent in Pimpri, Urbania on Rent in Chinchwad"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/urbania-on-rent-in-pimpri-chinchwad"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
       <section className="page-header">

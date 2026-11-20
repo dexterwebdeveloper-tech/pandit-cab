@@ -521,7 +521,36 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mini Bus On Rent in Hinjewadi",
+  "image": "https://www.panditcabs.com/assets/images/mini-bus-on-rent-in-hinjewadi.webp",
+  "description": "Book a Mini Bus On Rent in Hinjewadi with Pandit Cabs for IT park transportation, corporate outings, office pickup and drop services, and employee travel. Choose from suitable AC and Non-AC mini bus options, including 17-seater vehicles, according to availability. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mini-bus-on-rent-in-hinjewadi",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -530,6 +559,22 @@ const testimonials = [
 
   return (
     <div>
+<Helmet>
+  <title>Mini Bus On Rent in Hinjewadi | Hinjewadi IT Park Bus Rental | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mini Bus On Rent in Hinjewadi with Pandit Cabs for IT park travel, employee transportation, office pickup and drop, and corporate outings. AC and Non-AC options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mini Bus On Rent in Hinjewadi, Mini Bus Hire Hinjewadi Pune, Hinjewadi IT Park Bus Rental, Corporate Bus Hinjewadi Pune, Mini Bus for Office Pickup Hinjewadi, Hinjewadi Employee Transport Bus, AC Mini Bus Hinjewadi, Non AC Mini Bus Hinjewadi, 17 Seater"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mini-bus-on-rent-in-hinjewadi"
+  />
+</Helmet>
+
 
 
 

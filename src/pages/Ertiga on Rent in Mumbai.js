@@ -605,11 +605,59 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Ertiga On Rent in Mumbai",
+  "image": "https://www.panditcabs.com/assets/images/ertiga-on-rent-in-mumbai.webp",
+  "description": "Book an Ertiga on rent in Mumbai with Pandit Cabs for comfortable local travel, airport transfers, family outings and outstation journeys. Contact +91 9890121689 for bookings and rental details.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/ertiga-on-rent-in-mumbai",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
   return (
     <div>
+
+<Helmet>
+  <title>Ertiga On Rent in Mumbai | Ertiga CNG on Rent in Mumbai | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire an Ertiga on rent in Mumbai with Pandit Cabs for local rides, airport transfers and outstation travel. Contact +91 9890121689 for Ertiga cab bookings."
+  />
+  <meta
+    name="keywords"
+    content="Ertiga CNG on Rent in Mumbai, Ertiga on Hire in Mumbai, Ertiga Rent per Km in Mumbai, Ertiga Car on Rent in Mumbai, Ertiga on Rent in Mumbai, Ertiga Cab in Mumbai, Ertiga Taxi in Mumbai, Ertiga Car Rental Mumbai, Ertiga Hire in Mumbai, Ertiga Cab Service Mumbai"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/ertiga-on-rent-in-mumbai"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
 

@@ -567,7 +567,36 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Outstation Cab Service In Mumbai",
+  "image": "https://www.panditcabs.com/assets/images/outstation-cab-service-in-mumbai.webp",
+  "description": "Book an Outstation Cab Service In Mumbai with Pandit Cabs for comfortable intercity travel, one-way journeys, round trips, family holidays, and business trips. Choose from sedan, SUV, and Innova vehicles according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/outstation-cab-service-in-mumbai",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -576,6 +605,22 @@ const testimonials = [
   return (
     <div>
 
+
+<Helmet>
+  <title>Outstation Cab Service In Mumbai | Mumbai Outstation Taxi | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Choose Outstation Cab Service In Mumbai with Pandit Cabs for one-way trips, round journeys, family holidays, and business travel. Sedan, SUV, and Innova options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Outstation Cab Service In Mumbai, Mumbai Outstation Taxi, Mumbai Outstation Car Rental, Outstation Cab Booking Mumbai, Mumbai"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/outstation-cab-service-in-mumbai"
+  />
+</Helmet>
 
 
       <section className="page-header">

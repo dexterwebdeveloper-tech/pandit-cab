@@ -566,6 +566,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mumbai To Shirdi Cab",
+  "image": "https://www.panditcabs.com/assets/images/mumbai-to-shirdi-cab.webp",
+  "description": "Book a Mumbai To Shirdi Cab with Pandit Cabs for comfortable Sai Baba darshan trips, family pilgrimages, one-way transfers, and round-trip journeys. Choose from sedan, SUV, and Innova options according to your travel requirements. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mumbai-to-shirdi-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -577,6 +607,21 @@ const testimonials = [
 
   return (
     <div>
+<Helmet>
+  <title>Mumbai To Shirdi Cab | Mumbai Shirdi Round Trip Taxi | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Mumbai To Shirdi Cab with Pandit Cabs for Sai Baba darshan, family pilgrimages, one-way drops, and round trips. Sedan, SUV, and Innova options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Mumbai To Shirdi Cab, Mumbai to Shirdi Taxi, Mumbai Shirdi Car Rental, Mumbai to Shirdi One Way Cab, Mumbai Shirdi Taxi Booking, Mumbai to Shirdi Cab Fare, Mumbai Shirdi Round Trip Taxi, Mumbai to Shirdi Innova Cab, Mumbai to Shirdi Sedan Rental, Mumbai Shirdi Private"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mumbai-to-shirdi-cab"
+  />
+</Helmet>
 
 
 

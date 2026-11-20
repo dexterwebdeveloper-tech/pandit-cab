@@ -582,12 +582,57 @@ const testimonials = [
 
 
 
-
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mumbai Airport to Pune Cab",
+  "image": "https://www.panditcabs.com/assets/images/mumbai-airport-to-pune-cab.webp",
+  "description": "Book a Mumbai Airport to Pune Cab with Pandit Cabs for convenient airport transfers, business travel, family journeys, and one-way trips. Get comfortable cab service from Mumbai Airport Terminal 1 and Terminal 2 to Pune with suitable vehicle options. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/mumbai-airport-to-pune-cab",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
   return (
     <div>
 
+
+<Helmet>
+  <title>Mumbai Airport to Pune Cab | Mumbai Airport Terminal 2 to Pune Cab | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Book a Mumbai Airport to Pune Cab with Pandit Cabs for reliable airport pickup, Terminal 1 and Terminal 2 transfers, and one-way journeys. Call +91 9890121689 for booking details."
+  />
+  <meta
+    name="keywords"
+    content="Mumbai Airport to Pune Cab, Mumbai to Pune Cab Service, Mumbai Airport to Pune Taxi Fare, Mumbai Pune Cab One Way, Mumbai to Pune Cab from Airport, Mumbai Airport Terminal 2 to Pune Cab, Mumbai Airport"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/mumbai-airport-to-pune-cab"
+  />
+</Helmet>
 
 
       <section className="page-header">

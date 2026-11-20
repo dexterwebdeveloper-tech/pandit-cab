@@ -530,6 +530,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Pune to Shirdi Mini Bus",
+  "image": "https://www.panditcabs.com/assets/images/pune-to-shirdi-mini-bus.webp",
+  "description": "Book a Pune to Shirdi Mini Bus with Pandit Cabs for comfortable Sai Baba darshan trips, family pilgrimages, and group journeys. Choose suitable AC and Non-AC mini bus options for convenient travel from Pune to Shirdi. Contact Pandit Cabs at +91 9890121689 for booking enquiries.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/pune-to-shirdi-mini-bus",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -537,6 +567,21 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Pune to Shirdi Mini Bus | Shirdi Darshan Mini Bus Pune | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire a Pune to Shirdi Mini Bus with Pandit Cabs for Sai Baba darshan, family pilgrimages, and group trips. AC and Non-AC options available. Call +91 9890121689."
+  />
+  <meta
+    name="keywords"
+    content="Pune to Shirdi Mini Bus, Pune to Shirdi Mini Bus on Rent, Pune to Shirdi Bus Hire, Shirdi Darshan Mini Bus Pune, Shirdi Trip Mini Bus Booking, AC Mini Bus Pune to Shirdi, Non AC Mini Bus"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/pune-to-shirdi-mini-bus"
+  />
+</Helmet>
 
 
       <section className="page-header">

@@ -512,6 +512,36 @@ const testimonials = [
 
 
 
+const productSchema = {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Urbania On Rent Pune",
+  "image": "https://www.panditcabs.com/assets/images/urbania-on-rent-pune.webp",
+  "description": "Book a luxury Force Urbania on rent in Pune with Pandit Cabs for group travel, family trips, corporate outings and outstation journeys. Contact +91 9890121689 for Urbania booking and rental details.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pandit Cabs"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "25000"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.panditcabs.com/urbania-on-rent-pune",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Pandit Cabs",
+      "telephone": "+91 9890121689",
+      "url": "https://www.panditcabs.com/"
+    }
+  }
+};
 
 
 
@@ -521,6 +551,24 @@ const testimonials = [
   return (
     <div>
 
+<Helmet>
+  <title>Urbania On Rent Pune | 17 Seater Urbania on Rent Pune | +91 9890121689</title>
+  <meta
+    name="description"
+    content="Hire an Urbania on rent in Pune with Pandit Cabs for comfortable group journeys, corporate travel, family outings and outstation trips. Call +91 9890121689 for booking details."
+  />
+  <meta
+    name="keywords"
+    content="Urbania on Rent in Pune, 17 Seater Urbania on Rent Pune, 20 Seater Urbania Booking Pune, Urbania for Outstation Pune, Urbania Van Rent Pune, Pune U"
+  />
+  <link
+    rel="canonical"
+    href="https://www.panditcabs.com/urbania-on-rent-pune"
+  />
+  <script type="application/ld+json">
+    {JSON.stringify(productSchema)}
+  </script>
+</Helmet>
 
 
       <section className="page-header">

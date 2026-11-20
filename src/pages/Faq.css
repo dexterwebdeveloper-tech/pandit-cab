@@ -1,0 +1,212 @@
+
+/* =========================================
+   PANDIT CABS - FAQ ACCORDION
+========================================= */
+
+.faq-one {
+  position: relative;
+  overflow-x: clip;
+}
+
+/* Accordion wrapper */
+.faq-one .faq-one-accrodion {
+  width: 100%;
+}
+
+/* FAQ item */
+.faq-one .faq-one-accrodion .accrodion {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  background: #111021;
+  transition: background 0.3s ease;
+}
+
+/* Active FAQ */
+.faq-one .faq-one-accrodion .accrodion.active {
+  background: #282633;
+}
+
+/* Remove old theme icon */
+.faq-one .accrodion-title::before,
+.faq-one .accrodion-title::after,
+.faq-one .accrodion-title h4::before,
+.faq-one .accrodion-title h4::after,
+.faq-one .faq-one__question-btn::before,
+.faq-one .faq-one__question-btn::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Question container */
+.faq-one .accrodion-title {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+/* Full width clickable question */
+.faq-one .faq-one__question-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  /* padding: 24px 32px; */
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: none;
+}
+
+/* Keyboard accessibility */
+.faq-one .faq-one__question-btn:focus-visible {
+  outline: 2px solid #ffb81c;
+  outline-offset: -3px;
+  border-radius: 20px;
+}
+
+/* Question text */
+.faq-one .faq-one__question-text {
+  flex: 1;
+  min-width: 0;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.45;
+  font-family: inherit;
+  transition: color 0.3s ease;
+}
+
+/* Same original orange circular icon */
+.faq-one .faq-one__toggle-icon {
+  position: relative;
+  flex-shrink: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #ffb81c;
+  color: #ffffff;
+  font-family: Arial, sans-serif !important;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  transform: none;
+  transition: background 0.3s ease;
+}
+
+/* Remove any previous pseudo-element icons */
+.faq-one .faq-one__toggle-icon::before,
+.faq-one .faq-one__toggle-icon::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Keep icon orange when open */
+.faq-one .accrodion.active .faq-one__toggle-icon {
+  background: #ffb81c;
+  color: #ffffff;
+}
+
+/* Answer container */
+.faq-one .accrodion-content {
+  padding: 0 32px 26px;
+  background: transparent;
+}
+
+/* Answer inner */
+.faq-one .accrodion-content .inner {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+/* Answer text */
+.faq-one .accrodion-content .inner p {
+  margin: 0;
+  color: #e1e0e8;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+/* FAQ image */
+.faq-one .faq-one__img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Booking highlight */
+.faq-one .faq-one__experience-year h2 {
+  font-weight: 800;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1199px) {
+  .faq-one .faq-one__right {
+    margin-top: 25px;
+  }
+
+  .faq-one .faq-one__question-btn {
+    padding: 20px 24px;
+  }
+
+  .faq-one .faq-one__question-text {
+    font-size: 19px;
+  }
+
+  .faq-one .accrodion-content {
+    padding: 0 24px 22px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+  .faq-one .faq-one-accrodion .accrodion {
+    border-radius: 16px;
+    margin-bottom: 14px;
+  }
+
+  .faq-one .faq-one__question-btn {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .faq-one .faq-one__question-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .faq-one .faq-one__toggle-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  .faq-one .accrodion-content {
+    padding: 0 16px 18px;
+  }
+
+  .faq-one .accrodion-content .inner p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .faq-one .faq-one__right {
+    margin-top: 20px;
+  }
+}

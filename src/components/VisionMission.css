@@ -1,0 +1,488 @@
+
+/* ==========================================
+   PANDIT CABS - VISION & MISSION
+   NAVY BLUE + ORANGE THEME
+========================================== */
+
+.vm-section {
+  --vm-navy: #102d4b;
+  --vm-orange: #f36b21;
+
+  position: relative;
+  padding: 60px 0;
+  background: #f2f5f9;
+  overflow: hidden;
+}
+
+.vm-section *,
+.vm-section *::before,
+.vm-section *::after {
+  box-sizing: border-box;
+}
+
+/* ==========================================
+   SECTION HEADING
+========================================== */
+
+.vm-heading {
+  max-width: 760px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.vm-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #f36b21;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.vm-label::before,
+.vm-label::after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: #f36b21;
+}
+
+.vm-heading h2 {
+  margin: 12px 0;
+  color: #102d4b;
+  font-size: clamp(28px, 3.5vw, 42px);
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+.vm-heading h2 span {
+  color: #f36b21;
+}
+
+.vm-heading p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #586c80;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* ==========================================
+   TWO COLUMN GRID
+========================================== */
+
+.vm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* ==========================================
+   COMMON CARD DESIGN
+========================================== */
+
+.vm-section .vm-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  padding: 34px;
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Decorative circles */
+
+.vm-card::after {
+  content: "";
+  position: absolute;
+  right: -65px;
+  top: -65px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+}
+
+.vm-card::before {
+  content: "";
+  position: absolute;
+  left: -65px;
+  bottom: -100px;
+  top: auto;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+
+.vm-section .vm-card:hover {
+  transform: translateY(-6px);
+}
+
+/* ==========================================
+   VISION - NAVY BLUE
+========================================== */
+
+.vm-section .vm-vision {
+  background: linear-gradient(
+    145deg,
+    #102d4b 0%,
+    #17456c 100%
+  );
+  box-shadow: 0 12px 30px rgba(16, 45, 75, 0.2);
+}
+
+.vm-section .vm-vision:hover {
+  box-shadow: 0 20px 42px rgba(16, 45, 75, 0.3);
+}
+
+/* ==========================================
+   MISSION - ORANGE
+========================================== */
+
+.vm-section .vm-mission {
+  background: linear-gradient(
+    145deg,
+    #f36b21 0%,
+    #e45212 100%
+  );
+  box-shadow: 0 12px 30px rgba(243, 107, 33, 0.2);
+}
+
+.vm-section .vm-mission:hover {
+  box-shadow: 0 20px 42px rgba(243, 107, 33, 0.3);
+}
+
+/* ==========================================
+   CARD TOP
+========================================== */
+
+.vm-card-top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* ICON */
+
+.vm-section .vm-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  min-width: 62px;
+  border-radius: 15px;
+  background: #ffffff;
+  font-size: 27px;
+}
+
+.vm-section .vm-vision .vm-icon {
+  color: #102d4b;
+}
+
+.vm-section .vm-mission .vm-icon {
+  color: #f36b21;
+}
+
+/* LABEL */
+
+.vm-section .vm-card-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 15px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* ==========================================
+   CARD CONTENT
+========================================== */
+
+.vm-section .vm-card h3 {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 18px;
+  color: #ffffff !important;
+  font-size: 25px;
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+.vm-section .vm-card p {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 17px;
+  color: #ffffff !important;
+  font-size: 15px;
+  line-height: 1.85;
+  font-weight: 400;
+  opacity: 0.94;
+}
+
+.vm-section .vm-card p:last-of-type {
+  margin-bottom: 24px;
+}
+
+/* ==========================================
+   CARD FOOTER
+========================================== */
+
+.vm-section .vm-card-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.vm-section .vm-card-footer span {
+  color: #ffffff !important;
+}
+
+.vm-section .vm-card-footer i {
+  color: #ffffff;
+  font-size: 19px;
+}
+
+/* ==========================================
+   BOTTOM COMMITMENT
+========================================== */
+
+.vm-commitment {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-top: 26px;
+  padding: 26px 30px;
+  border-radius: 16px;
+  background: linear-gradient(
+    110deg,
+    #102d4b 0%,
+    #17456c 65%,
+    #f36b21 100%
+  );
+  box-shadow: 0 10px 28px rgba(16, 45, 75, 0.12);
+}
+
+.vm-commitment-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 65px;
+  height: 65px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.vm-commitment-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.vm-commitment-content h4 {
+  margin: 0 0 8px;
+  color: #ffffff !important;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.vm-commitment-content p {
+  margin: 0;
+  color: #ffffff !important;
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 0.94;
+}
+
+/* BOOKING BUTTON */
+
+.vm-commitment-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-shrink: 0;
+  min-height: 50px;
+  padding: 13px 22px;
+  border-radius: 9px;
+  background: #ffffff;
+  color: #102d4b !important;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.vm-commitment-btn:hover {
+  background: #f36b21;
+  color: #ffffff !important;
+  transform: translateY(-3px);
+}
+
+.vm-commitment-btn i {
+  font-size: 14px;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 991px) {
+  .vm-section {
+    padding: 45px 0;
+  }
+
+  .vm-grid {
+    gap: 18px;
+  }
+
+  .vm-section .vm-card {
+    padding: 25px;
+  }
+
+  .vm-section .vm-card h3 {
+    font-size: 22px;
+  }
+
+  .vm-section .vm-card p {
+    font-size: 14px;
+  }
+
+  .vm-commitment {
+    flex-wrap: wrap;
+  }
+
+  .vm-commitment-btn {
+    margin-left: 87px;
+  }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+  .vm-section {
+    padding: 35px 0;
+  }
+
+  .vm-heading {
+    margin-bottom: 25px;
+  }
+
+  .vm-heading h2 {
+    font-size: 29px;
+  }
+
+  .vm-heading p {
+    font-size: 14px;
+  }
+
+  .vm-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .vm-section .vm-card {
+    padding: 24px 20px;
+    border-radius: 14px;
+  }
+
+  .vm-card-top {
+    margin-bottom: 20px;
+  }
+
+  .vm-section .vm-icon {
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    font-size: 24px;
+  }
+
+  .vm-section .vm-card h3 {
+    font-size: 21px;
+  }
+
+  .vm-section .vm-card p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .vm-section .vm-card-footer {
+    font-size: 12px;
+  }
+
+  .vm-commitment {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 23px 20px;
+    margin-top: 20px;
+    background: linear-gradient(
+      145deg,
+      #102d4b 0%,
+      #17456c 100%
+    );
+  }
+
+  .vm-commitment-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+  }
+
+  .vm-commitment-content h4 {
+    font-size: 20px;
+  }
+
+  .vm-commitment-content p {
+    font-size: 13px;
+  }
+
+  .vm-commitment-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vm-section .vm-card,
+  .vm-commitment-btn {
+    transition: none;
+  }
+
+  .vm-section .vm-card:hover,
+  .vm-commitment-btn:hover {
+    transform: none;
+  }
+}

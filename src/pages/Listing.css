@@ -1,0 +1,348 @@
+
+/* ==========================================
+   PANDIT CABS - PROFESSIONAL VEHICLE FLEET
+========================================== */
+
+.pandit-fleet {
+  position: relative;
+  padding: 55px 0;
+  background: #f7f9fc;
+  overflow-x: clip;
+}
+
+.pandit-fleet .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* SECTION HEADING */
+
+.pandit-fleet .section-title {
+  margin-bottom: 28px;
+}
+
+.pandit-fleet .section-title__tagline {
+  color: #f36b21;
+}
+
+.pandit-fleet .section-title__title {
+  color: #102d4b;
+}
+
+.pandit-fleet__intro {
+  max-width: 650px;
+  margin: 12px auto 0;
+  color: #637386;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ==========================================
+   FILTER BUTTONS
+========================================== */
+
+.pandit-fleet__filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.pandit-fleet__filter {
+  border: 1px solid #dfe6ee;
+  background: #ffffff;
+  color: #102d4b;
+  padding: 11px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.pandit-fleet__filter:hover,
+.pandit-fleet__filter.active {
+  background: #f36b21;
+  color: #ffffff;
+  border-color: #f36b21;
+}
+
+.pandit-fleet__filter:focus-visible {
+  outline: 3px solid #102d4b;
+  outline-offset: 3px;
+}
+
+/* ==========================================
+   VEHICLE GRID
+========================================== */
+
+.pandit-fleet__grid > div {
+  display: flex;
+  min-width: 0;
+}
+
+/* ==========================================
+   VEHICLE CARD
+========================================== */
+
+.pandit-fleet__card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  background: #ffffff;
+  border: 1px solid #e7edf3;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(16, 45, 75, 0.06);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.pandit-fleet__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(16, 45, 75, 0.12);
+}
+
+/* ==========================================
+   VEHICLE IMAGE
+========================================== */
+
+.pandit-fleet__image-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 220px;
+  padding: 14px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.pandit-fleet__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+.pandit-fleet__card:hover .pandit-fleet__image {
+  transform: scale(1.04);
+}
+
+/* CATEGORY BADGE */
+
+.pandit-fleet__category {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: inline-flex;
+  align-items: center;
+  background: #102d4b;
+  color: #ffffff;
+  padding: 6px 13px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  z-index: 2;
+}
+
+/* ==========================================
+   CARD CONTENT
+========================================== */
+
+.pandit-fleet__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.pandit-fleet__title {
+  margin: 0 0 9px;
+  color: #102d4b !important;
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 800;
+}
+
+.pandit-fleet__description {
+  margin: 0 0 16px;
+  color: #607184 !important;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+/* ==========================================
+   VEHICLE FEATURES
+========================================== */
+
+.pandit-fleet__features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 10px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-top: 1px solid #e9eef3;
+  border-bottom: 1px solid #e9eef3;
+}
+
+.pandit-fleet__feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+  color: #45596e !important;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.pandit-fleet__feature-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 20px;
+  color: #f36b21;
+  font-size: 14px;
+}
+
+/* ==========================================
+   BOOKING BUTTONS
+========================================== */
+
+.pandit-fleet__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.pandit-fleet__book {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 11px 15px;
+  background: #f36b21;
+  color: #ffffff !important;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.pandit-fleet__book:hover {
+  background: #102d4b;
+  color: #ffffff !important;
+}
+
+.pandit-fleet__call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  min-width: 46px;
+  min-height: 46px;
+  background: #102d4b;
+  color: #ffffff !important;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.pandit-fleet__call:hover {
+  background: #f36b21;
+  color: #ffffff !important;
+}
+
+.pandit-fleet__book:focus-visible,
+.pandit-fleet__call:focus-visible {
+  outline: 3px solid #102d4b;
+  outline-offset: 3px;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 991px) {
+  .pandit-fleet {
+    padding: 40px 0;
+  }
+
+  .pandit-fleet__image-box {
+    height: 210px;
+  }
+
+  .pandit-fleet__content {
+    padding: 18px;
+  }
+
+  .pandit-fleet__title {
+    font-size: 20px;
+  }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+  .pandit-fleet {
+    padding: 30px 0;
+  }
+
+  .pandit-fleet .section-title {
+    margin-bottom: 22px;
+  }
+
+  .pandit-fleet .section-title__title {
+    font-size: 27px;
+    line-height: 1.35;
+  }
+
+  .pandit-fleet__intro {
+    font-size: 14px;
+  }
+
+  .pandit-fleet__filters {
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+
+  .pandit-fleet__filter {
+    padding: 9px 13px;
+    font-size: 12px;
+  }
+
+  .pandit-fleet__image-box {
+    height: 200px;
+  }
+
+  .pandit-fleet__content {
+    padding: 17px;
+  }
+
+  .pandit-fleet__title {
+    font-size: 20px;
+  }
+
+  .pandit-fleet__features {
+    gap: 12px 8px;
+  }
+}

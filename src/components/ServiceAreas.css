@@ -1,0 +1,74 @@
+/* Pandit Cabs – colorful, compact service-area layout */
+.pc-areas{--pc-navy:#102d4b;--pc-orange:#f36b21;--pc-muted:#53657b;background:linear-gradient(145deg,#f4f8fc 0%,#fff 52%,#fff5ed 100%);padding:56px 0 60px;overflow:hidden}
+.pc-areas *{box-sizing:border-box}
+.pc-areas__heading{text-align:center;max-width:830px;margin:0 auto 28px}
+.pc-areas__eyebrow{display:inline-block;font-size:11px;font-weight:800;letter-spacing:2px;color:var(--pc-orange);margin-bottom:10px}
+.pc-areas__heading h2{color:var(--pc-navy);font-size:clamp(29px,3.5vw,45px);font-weight:800;line-height:1.2;margin:0 0 12px}
+.pc-areas__heading h2 span{color:var(--pc-orange)}
+.pc-areas__heading p{color:var(--pc-muted);font-size:15px;line-height:1.7;margin:0}
+.pc-areas__pickup-list{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:0 auto 38px}
+.pc-areas__pickup{display:inline-flex;align-items:center;gap:8px;padding:6px 14px 6px 6px;border:1px solid #e2eaf1;border-radius:40px;background:#fff;box-shadow:0 5px 16px rgba(16,45,75,.06);color:#20354b;font-size:13px;font-weight:600;white-space:nowrap}
+.pc-areas__pickup-dot{width:29px;height:29px;display:grid;place-items:center;border-radius:50%;color:#fff;background:#102d4b;font-size:12px}
+.pc-areas__pickup-dot--1{background:#f36b21}.pc-areas__pickup-dot--2{background:#258c9a}.pc-areas__pickup-dot--3{background:#4c6cb3}.pc-areas__pickup-dot--4{background:#318b6b}
+.pc-areas__toolbar{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:19px}
+.pc-areas__toolbar h3{color:var(--pc-navy);font-size:clamp(21px,2.4vw,29px);font-weight:800;margin:0 0 5px}
+.pc-areas__toolbar p{color:var(--pc-muted);margin:0;font-size:13px}
+.pc-areas__search{display:flex;align-items:center;gap:10px;min-width:260px;padding:0 14px;border:1px solid #dce5ee;border-radius:11px;background:#fff;color:var(--pc-orange)}
+.pc-areas__search input{width:100%;height:43px;border:0;outline:0;background:transparent;color:var(--pc-navy);font-size:13px}
+.pc-areas__filters{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:14px}
+.pc-areas__filter{padding:9px 15px;border:1px solid #dce5ed;border-radius:8px;background:#fff;color:var(--pc-navy);font-size:12px;font-weight:700;cursor:pointer;transition:.2s}
+.pc-areas__filter:hover,.pc-areas__filter.is-active{background:var(--pc-navy);border-color:var(--pc-navy);color:#fff}
+.pc-areas__results{color:#63768a;font-size:12px;margin:0 0 12px}
+.pc-areas__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.pc-areas__route{display:flex;align-items:center;gap:10px;min-width:0;min-height:68px;padding:11px;border:1px solid #e4eaf0;border-left:3px solid transparent;border-radius:12px;background:#fff;box-shadow:0 6px 18px rgba(16,45,75,.065);text-decoration:none!important;transition:transform .2s,box-shadow .2s,border-color .2s}
+.pc-areas__route:hover{transform:translateY(-3px);border-left-color:var(--pc-orange);box-shadow:0 12px 25px rgba(16,45,75,.12)}
+.pc-areas__route-icon{display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border-radius:50%;background:#eaf1f8;color:#102d4b;font-size:14px}
+.pc-areas__route-icon--1{background:#fff0e6;color:#f36b21}.pc-areas__route-icon--2{background:#e7f6f4;color:#218e82}.pc-areas__route-icon--3{background:#edf0ff;color:#5d6cba}.pc-areas__route-icon--4{background:#fef2e0;color:#b87913}
+.pc-areas__route-label{flex:1;min-width:0;color:#20354b;font-size:12.5px;font-weight:650;line-height:1.45;overflow-wrap:anywhere}
+.pc-areas__arrow{flex:0 0 auto;color:var(--pc-orange);font-size:11px;opacity:.8}
+.pc-areas__empty{text-align:center;padding:28px;color:var(--pc-muted)}
+.pc-areas__cta{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:28px;padding:22px 26px;border-radius:15px;background:linear-gradient(110deg,#102d4b,#204d72);color:#fff}
+.pc-areas__cta strong{display:block;font-size:19px;margin-bottom:5px;color:#fff}
+.pc-areas__cta p{color:#e0eaf2;font-size:13px;margin:0}
+.pc-areas__cta a{display:inline-flex;align-items:center;justify-content:center;gap:9px;flex-shrink:0;padding:13px 20px;border-radius:9px;background:#f36b21;color:#fff!important;font-size:13px;font-weight:800;text-decoration:none!important}
+.pc-areas__cta a:hover{background:#e45b13}
+@media(max-width:1199px){.pc-areas__grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:991px){.pc-areas{padding:44px 0}.pc-areas__grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pc-areas__toolbar{align-items:stretch;flex-direction:column}.pc-areas__search{min-width:0;width:100%}}
+@media(max-width:575px){.pc-areas{padding:34px 0}.pc-areas__heading{margin-bottom:20px}.pc-areas__pickup-list{justify-content:flex-start;gap:7px;margin-bottom:27px}.pc-areas__pickup{font-size:11px;padding-right:10px}.pc-areas__grid{grid-template-columns:1fr;gap:9px}.pc-areas__route{min-height:59px}.pc-areas__filters{gap:7px}.pc-areas__filter{padding:8px 10px;font-size:11px}.pc-areas__cta{align-items:stretch;flex-direction:column;padding:20px}.pc-areas__cta a{width:100%}}
+
+/* Pandit Cabs contact details and embedded office map */
+.pc-areas__contact{margin-top:34px}
+.pc-areas__contact-heading{text-align:center;margin-bottom:20px}
+.pc-areas__contact-heading h3{color:var(--pc-navy);font-size:clamp(25px,3vw,34px);font-weight:800;margin:0 0 8px}
+.pc-areas__contact-heading h3 span{color:var(--pc-orange)}
+.pc-areas__contact-heading p{color:var(--pc-muted);font-size:14px;margin:0}
+.pc-areas__contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:20px;align-items:stretch}
+.pc-areas__contact-details{background:var(--pc-navy);border-radius:16px;padding:24px;color:#fff;display:flex;flex-direction:column;gap:18px}
+.pc-areas__detail{display:flex;gap:13px;align-items:flex-start;min-width:0}
+.pc-areas__detail-icon{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;background:var(--pc-orange);color:#fff;border-radius:11px}
+.pc-areas__detail h4{font-size:15px;font-weight:800;color:#fff;margin:0 0 5px}
+.pc-areas__detail address,.pc-areas__detail a{font-size:13px;line-height:1.7;color:#e6edf5!important;font-style:normal;margin:0;text-decoration:none;overflow-wrap:anywhere}
+.pc-areas__detail a:hover{color:#ffb487!important}
+.pc-areas__contact-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto}
+.pc-areas__contact-actions a{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:11px 17px;border-radius:9px;font-size:13px;font-weight:800;text-decoration:none!important;color:#fff!important}
+.pc-areas__call-action{background:var(--pc-orange)}
+.pc-areas__whatsapp-action{background:#178a54}
+.pc-areas__map{overflow:hidden;border-radius:16px;background:#fff;border:1px solid #dce5ee;box-shadow:0 6px 20px rgba(16,45,75,.07);display:flex;flex-direction:column}
+.pc-areas__map-label{display:flex;align-items:center;gap:9px;padding:13px 17px;color:var(--pc-navy);font-size:14px;font-weight:800}
+.pc-areas__map-label i{color:var(--pc-orange)}
+.pc-areas__map iframe{display:block;width:100%;height:100%;min-height:300px;flex:1;border:0}
+@media(max-width:767px){.pc-areas__contact-grid{grid-template-columns:1fr}.pc-areas__contact-details{padding:20px}.pc-areas__map iframe{height:300px;flex:auto}}
+@media(max-width:575px){.pc-areas__contact{margin-top:26px}.pc-areas__contact-actions a{flex:1}.pc-areas__contact-heading p{font-size:13px}}
+
+/* Progressive reveal: keep all original URLs, show a compact shortlist first */
+.pc-areas__expand-actions{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:12px;margin:24px 0 10px}
+.pc-areas__expand-actions button{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;cursor:pointer;font-family:inherit;font-weight:750;transition:background .2s,transform .2s}
+.pc-areas__expand-btn{padding:13px 21px;border-radius:10px;background:#102d4b;color:#fff;font-size:13px;box-shadow:0 8px 20px rgba(16,45,75,.15)}
+.pc-areas__expand-btn:hover{background:#f36b21;transform:translateY(-2px)}
+.pc-areas__expand-btn span{font-weight:500;opacity:.85}
+.pc-areas__expand-link{padding:12px 14px;border-radius:9px;background:#fff;color:#f36b21;font-size:13px;border:1px solid #f6d7c5!important}
+.pc-areas__expand-link:hover{background:#fff2ea}
+.pc-areas__collapse-btn{padding:12px 15px;border-radius:9px;background:#eaf0f6;color:#102d4b;font-size:13px}
+.pc-areas__collapse-btn:hover{background:#dce8f2}
+.pc-areas__expand-actions button:focus-visible{outline:3px solid #f36b21;outline-offset:3px}
+@media(max-width:575px){.pc-areas__expand-actions{gap:9px}.pc-areas__expand-btn{width:100%}.pc-areas__expand-link,.pc-areas__collapse-btn{flex:1}}

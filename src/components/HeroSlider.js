@@ -19,8 +19,8 @@ const HeroSection = () => {
   return (
 
     <div className="th-hero-wrapper hero-1" id="hero">
-              <Carousel/>
-              {/* <VideoSlider/> */}
+              {/* <Carousel/> */}
+              <VideoSlider/>
               <Services/>
               {/* <About/> */}
               <Process/>

@@ -4635,3 +4635,50 @@ li{
     font-size: 11px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* Social Media Section */
+.pc-areas__social {
+  margin-top: 24px;
+}
+
+.pc-areas__social h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.pc-areas__social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pc-areas__social-links a {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #F36B21;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.pc-areas__social-links a:hover {
+  background: #0D1A2B;
+  color: #fff;
+  transform: translateY(-4px);
+}

@@ -72,7 +72,7 @@ const Header = () => {
 
                   {/* <li className="d-flex gap-3">
                     <a
-                      href="https://www.instagram.com/"
+                      href="https://www.instagram.com/panditcabs/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -80,7 +80,7 @@ const Header = () => {
                     </a>
 
                     <a
-                      href="https://www.facebook.com/"
+                      href="https://www.facebook.com/profile.php?id=61596826952113"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -88,7 +88,7 @@ const Header = () => {
                     </a>
 
                     <a
-                      href="https://x.com/"
+                      href="https://x.com/panditcabs"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -96,14 +96,14 @@ const Header = () => {
                     </a>
 
                     <a
-                      href="https://www.pinterest.com/"
+                      https://in.pinterest.com/panditcabs/"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <i className="fab fa-pinterest-p text-white"></i>
                     </a>
                     <a
-  href="https://youtu.be/By0CVWy8XDyorqA8"
+  href="https://youtu.be/3m8Yq4tQ8hU"
   target="_blank"
   rel="noreferrer"
 >

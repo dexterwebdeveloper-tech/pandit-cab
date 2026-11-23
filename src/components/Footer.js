@@ -771,7 +771,7 @@ const ServiceAreas = () => {
         )}
 
         {/* CONTACT DETAILS AND OFFICE MAP */}
-        <div className="pc-areas__contact" id="pandit-cabs-contact">
+        {/* <div className="pc-areas__contact" id="pandit-cabs-contact">
           <div className="pc-areas__contact-heading">
             <span className="pc-areas__eyebrow">GET IN TOUCH</span>
             <h3>Contact <span>Pandit Cabs</span></h3>
@@ -809,7 +809,169 @@ const ServiceAreas = () => {
               />
             </div>
           </div>
+        </div> */}
+
+        <div className="pc-areas__contact" id="pandit-cabs-contact">
+  <div className="pc-areas__contact-heading">
+    <span className="pc-areas__eyebrow">GET IN TOUCH</span>
+    <h3>
+      Contact <span>Pandit Cabs</span>
+    </h3>
+    <p>
+      Contact our team for cab availability, pickup arrangements and
+      booking information.
+    </p>
+  </div>
+
+  <div className="pc-areas__contact-grid">
+    <div className="pc-areas__contact-details">
+
+      {/* Office Address */}
+      <div className="pc-areas__detail">
+        <span className="pc-areas__detail-icon">
+          <i className="fas fa-map-marker-alt" aria-hidden="true" />
+        </span>
+        <div>
+          <h4>Office Address</h4>
+          <address>
+            FL NO 301, Akshay Nest, Road No. 10,
+            <br />
+            Adarsh Nagar, Tingre Nagar,
+            <br />
+            Pune, Maharashtra 411032, India
+          </address>
         </div>
+      </div>
+
+      {/* Contact Number */}
+      <div className="pc-areas__detail">
+        <span className="pc-areas__detail-icon">
+          <i className="fas fa-phone-alt" aria-hidden="true" />
+        </span>
+        <div>
+          <h4>Call for Cab Booking</h4>
+          <a href="tel:+919890121689">
+            +91 9890121689
+          </a>
+        </div>
+      </div>
+
+      {/* Email Address */}
+      <div className="pc-areas__detail">
+        <span className="pc-areas__detail-icon">
+          <i className="fas fa-envelope" aria-hidden="true" />
+        </span>
+        <div>
+          <h4>Email Us</h4>
+          <a href="mailto:tarun.pandey@panditcabs.com">
+            tarun.pandey@panditcabs.com
+          </a>
+        </div>
+      </div>
+
+      {/* Contact Actions */}
+      <div className="pc-areas__contact-actions">
+        <a
+          className="pc-areas__call-action"
+          href="tel:+919890121689"
+        >
+          <i className="fas fa-phone-alt" aria-hidden="true" />
+          Call Now
+        </a>
+
+        <a
+          className="pc-areas__whatsapp-action"
+          href="https://wa.me/919890121689?text=Hello%20Pandit%20Cabs%20Team%2C%20I%20want%20to%20book%20a%20cab.%20Please%20share%20booking%20details."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-whatsapp" aria-hidden="true" />
+          WhatsApp
+        </a>
+      </div>
+
+      {/* Social Media Links */}
+      <div className="pc-areas__social">
+        <h4>Follow Us On Social Media</h4>
+
+        <div className="pc-areas__social-links">
+
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/panditcabs/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i className="fab fa-instagram" aria-hidden="true" />
+          </a>
+
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/profile.php?id=61596826952113"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i className="fab fa-facebook-f" aria-hidden="true" />
+          </a>
+
+          {/* Twitter / X */}
+          <a
+            href="https://x.com/panditcabs"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X (Twitter)"
+          >
+            <i className="fab fa-twitter" aria-hidden="true" />
+          </a>
+
+          {/* Pinterest */}
+          <a
+            href="https://in.pinterest.com/panditcabs/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Pinterest"
+          >
+            <i className="fab fa-pinterest-p" aria-hidden="true" />
+          </a>
+
+          {/* YouTube */}
+          <a
+            href="https://youtu.be/3m8Yq4tQ8hU"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <i className="fab fa-youtube" aria-hidden="true" />
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    {/* Google Map */}
+    <div className="pc-areas__map">
+      <div className="pc-areas__map-label">
+        <i className="fas fa-map-marked-alt" aria-hidden="true" />
+        Find Our Pune Office
+      </div>
+
+      <iframe
+        title="Pandit Cabs office location in Pune"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d184448.5491866619!2d73.874624!3d18.50358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c163d659a60742f%3A0x53574e44ae6b777f!2sPandit%20Cabs!5e1!3m2!1sen!2sin!4v1795169245527!5m2!1sen!2sin"
+        width="100%"
+        height="330"
+        loading="lazy"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+      />
+    </div>
+
+  </div>
+</div>
+
 
         <div className="pc-areas__cta">
           <div>
